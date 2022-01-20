@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VO1mjQ6UdfiK0q3oJmBUBhu24J9AXw34d+k1Lw/Z33tQL7zCt1oDbcwZNrvLwpg4/LjMwAsHyUI/v367j3Q+hg==",
+  "dgSpecHash": "IEMjXeBMbJ29PxexgXgm0xDJ4xyzbQGDY2toOQ+mu7BNyvPcReGXvcFTkWHz864BhQQmHZzGN5WFJkB/y6CfGw==",
   "success": true,
-  "projectFilePath": "C:\\Diag Tools\\BarcodeManagerParser\\BarcodeManagerParser\\BarcodeManagerParser.csproj",
+  "projectFilePath": "C:\\Git Repos\\DiagTool\\BarcodeManagerParserForm\\BarcodeManagerParser\\BarcodeManagerParser.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

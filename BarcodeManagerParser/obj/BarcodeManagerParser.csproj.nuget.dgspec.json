@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Diag Tools\\BarcodeManagerParser\\BarcodeManagerParser\\BarcodeManagerParser.csproj": {}
+    "C:\\Git Repos\\DiagTool\\BarcodeManagerParserForm\\BarcodeManagerParser\\BarcodeManagerParser.csproj": {}
   },
   "projects": {
-    "C:\\Diag Tools\\BarcodeManagerParser\\BarcodeManagerParser\\BarcodeManagerParser.csproj": {
+    "C:\\Git Repos\\DiagTool\\BarcodeManagerParserForm\\BarcodeManagerParser\\BarcodeManagerParser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Diag Tools\\BarcodeManagerParser\\BarcodeManagerParser\\BarcodeManagerParser.csproj",
+        "projectUniqueName": "C:\\Git Repos\\DiagTool\\BarcodeManagerParserForm\\BarcodeManagerParser\\BarcodeManagerParser.csproj",
         "projectName": "BarcodeManagerParser",
-        "projectPath": "C:\\Diag Tools\\BarcodeManagerParser\\BarcodeManagerParser\\BarcodeManagerParser.csproj",
+        "projectPath": "C:\\Git Repos\\DiagTool\\BarcodeManagerParserForm\\BarcodeManagerParser\\BarcodeManagerParser.csproj",
         "packagesPath": "C:\\Users\\jbtalbot\\.nuget\\packages\\",
-        "outputPath": "C:\\Diag Tools\\BarcodeManagerParser\\BarcodeManagerParser\\obj\\",
+        "outputPath": "C:\\Git Repos\\DiagTool\\BarcodeManagerParserForm\\BarcodeManagerParser\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

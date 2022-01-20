@@ -8,8 +8,6 @@ namespace BarcodeManagerParser
     {
         static void Main(string[] args)
         {
-            
-
             var exePath = System.Reflection.Assembly.GetEntryAssembly()?.Location;
             var exeName = System.AppDomain.CurrentDomain.FriendlyName;
             var exeLocation = exePath.Replace(exeName, "");
