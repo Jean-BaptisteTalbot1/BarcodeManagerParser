@@ -1,0 +1,10 @@
+C:\Diag Tools\barcodeLogParser\barcodeLogParser\bin\Debug\barcodeLogParser.exe.config
+C:\Diag Tools\barcodeLogParser\barcodeLogParser\bin\Debug\barcodeLogParser.exe
+C:\Diag Tools\barcodeLogParser\barcodeLogParser\bin\Debug\barcodeLogParser.pdb
+C:\Diag Tools\barcodeLogParser\barcodeLogParser\obj\Debug\barcodeLogParser.csproj.AssemblyReference.cache
+C:\Diag Tools\barcodeLogParser\barcodeLogParser\obj\Debug\barcodeLogParser.Form1.resources
+C:\Diag Tools\barcodeLogParser\barcodeLogParser\obj\Debug\barcodeLogParser.Properties.Resources.resources
+C:\Diag Tools\barcodeLogParser\barcodeLogParser\obj\Debug\barcodeLogParser.csproj.GenerateResource.cache
+C:\Diag Tools\barcodeLogParser\barcodeLogParser\obj\Debug\barcodeLogParser.csproj.CoreCompileInputs.cache
+C:\Diag Tools\barcodeLogParser\barcodeLogParser\obj\Debug\barcodeLogParser.exe
+C:\Diag Tools\barcodeLogParser\barcodeLogParser\obj\Debug\barcodeLogParser.pdb
