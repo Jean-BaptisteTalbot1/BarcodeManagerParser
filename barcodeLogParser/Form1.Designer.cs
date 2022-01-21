@@ -32,7 +32,7 @@ namespace barcodeLogParser
             this.ModeSelectionGroup = new System.Windows.Forms.GroupBox();
             this.FtpFileCheckBox = new System.Windows.Forms.CheckBox();
             this.LocalFileCheckBox = new System.Windows.Forms.CheckBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.actionsGroup = new System.Windows.Forms.GroupBox();
             this.ParsingBtn = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -45,14 +45,20 @@ namespace barcodeLogParser
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.progressBar = new System.Windows.Forms.ProgressBar();
+            this.fileSystemWatcher1 = new System.IO.FileSystemWatcher();
+            this.progressGroup = new System.Windows.Forms.GroupBox();
+            this.ProgressStatus = new System.Windows.Forms.Label();
             this.ModeSelectionGroup.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.actionsGroup.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.FtpGroup.SuspendLayout();
             this.LocalGroup.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).BeginInit();
+            this.progressGroup.SuspendLayout();
             this.SuspendLayout();
             // 
             // ModeSelectionGroup
@@ -90,15 +96,16 @@ namespace barcodeLogParser
             this.LocalFileCheckBox.UseVisualStyleBackColor = true;
             this.LocalFileCheckBox.Click += new System.EventHandler(this.LocalFileCheckBox_Click);
             // 
-            // groupBox2
+            // actionsGroup
             // 
-            this.groupBox2.Controls.Add(this.ParsingBtn);
-            this.groupBox2.Location = new System.Drawing.Point(199, 68);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(267, 127);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Actions button";
+            this.actionsGroup.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.actionsGroup.Controls.Add(this.ParsingBtn);
+            this.actionsGroup.Location = new System.Drawing.Point(199, 68);
+            this.actionsGroup.Name = "actionsGroup";
+            this.actionsGroup.Size = new System.Drawing.Size(267, 127);
+            this.actionsGroup.TabIndex = 1;
+            this.actionsGroup.TabStop = false;
+            this.actionsGroup.Text = "Actions button";
             // 
             // ParsingBtn
             // 
@@ -200,17 +207,51 @@ namespace barcodeLogParser
             this.textBox4.Size = new System.Drawing.Size(416, 20);
             this.textBox4.TabIndex = 0;
             // 
+            // progressBar
+            // 
+            this.progressBar.Location = new System.Drawing.Point(6, 27);
+            this.progressBar.Name = "progressBar";
+            this.progressBar.Size = new System.Drawing.Size(255, 61);
+            this.progressBar.TabIndex = 6;
+            // 
+            // fileSystemWatcher1
+            // 
+            this.fileSystemWatcher1.EnableRaisingEvents = true;
+            this.fileSystemWatcher1.SynchronizingObject = this;
+            // 
+            // progressGroup
+            // 
+            this.progressGroup.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.progressGroup.Controls.Add(this.ProgressStatus);
+            this.progressGroup.Controls.Add(this.progressBar);
+            this.progressGroup.Location = new System.Drawing.Point(199, 70);
+            this.progressGroup.Name = "progressGroup";
+            this.progressGroup.Size = new System.Drawing.Size(267, 127);
+            this.progressGroup.TabIndex = 7;
+            this.progressGroup.TabStop = false;
+            this.progressGroup.Text = "In Progress";
+            // 
+            // ProgressStatus
+            // 
+            this.ProgressStatus.AutoSize = true;
+            this.ProgressStatus.Location = new System.Drawing.Point(118, 94);
+            this.ProgressStatus.Name = "ProgressStatus";
+            this.ProgressStatus.Size = new System.Drawing.Size(35, 13);
+            this.ProgressStatus.TabIndex = 7;
+            this.ProgressStatus.Text = "label1";
+            // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(701, 410);
             this.Controls.Add(this.LocalGroup);
             this.Controls.Add(this.FtpGroup);
-            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.ModeSelectionGroup);
+            this.Controls.Add(this.actionsGroup);
+            this.Controls.Add(this.progressGroup);
             this.Name = "Form1";
             this.ModeSelectionGroup.ResumeLayout(false);
             this.ModeSelectionGroup.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
+            this.actionsGroup.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -221,6 +262,9 @@ namespace barcodeLogParser
             this.groupBox5.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
+            this.progressGroup.ResumeLayout(false);
+            this.progressGroup.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -230,7 +274,7 @@ namespace barcodeLogParser
         private System.Windows.Forms.GroupBox ModeSelectionGroup;
         private System.Windows.Forms.CheckBox FtpFileCheckBox;
         private System.Windows.Forms.CheckBox LocalFileCheckBox;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox actionsGroup;
         private System.Windows.Forms.Button ParsingBtn;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.TextBox textBox1;
@@ -243,6 +287,10 @@ namespace barcodeLogParser
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.ProgressBar progressBar;
+        private System.IO.FileSystemWatcher fileSystemWatcher1;
+        private System.Windows.Forms.GroupBox progressGroup;
+        private System.Windows.Forms.Label ProgressStatus;
     }
 }
 

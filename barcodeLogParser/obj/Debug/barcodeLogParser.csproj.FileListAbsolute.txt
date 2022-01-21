@@ -8,3 +8,13 @@ C:\Diag Tools\barcodeLogParser\barcodeLogParser\obj\Debug\barcodeLogParser.cspro
 C:\Diag Tools\barcodeLogParser\barcodeLogParser\obj\Debug\barcodeLogParser.csproj.CoreCompileInputs.cache
 C:\Diag Tools\barcodeLogParser\barcodeLogParser\obj\Debug\barcodeLogParser.exe
 C:\Diag Tools\barcodeLogParser\barcodeLogParser\obj\Debug\barcodeLogParser.pdb
+C:\Git Repos\DiagTool\BarcodeManagerParserForm\barcodeLogParser\bin\Debug\barcodeLogParser.exe.config
+C:\Git Repos\DiagTool\BarcodeManagerParserForm\barcodeLogParser\bin\Debug\barcodeLogParser.exe
+C:\Git Repos\DiagTool\BarcodeManagerParserForm\barcodeLogParser\bin\Debug\barcodeLogParser.pdb
+C:\Git Repos\DiagTool\BarcodeManagerParserForm\barcodeLogParser\obj\Debug\barcodeLogParser.Form1.resources
+C:\Git Repos\DiagTool\BarcodeManagerParserForm\barcodeLogParser\obj\Debug\barcodeLogParser.Properties.Resources.resources
+C:\Git Repos\DiagTool\BarcodeManagerParserForm\barcodeLogParser\obj\Debug\barcodeLogParser.csproj.GenerateResource.cache
+C:\Git Repos\DiagTool\BarcodeManagerParserForm\barcodeLogParser\obj\Debug\barcodeLogParser.csproj.CoreCompileInputs.cache
+C:\Git Repos\DiagTool\BarcodeManagerParserForm\barcodeLogParser\obj\Debug\barcodeLogParser.exe
+C:\Git Repos\DiagTool\BarcodeManagerParserForm\barcodeLogParser\obj\Debug\barcodeLogParser.pdb
+C:\Git Repos\DiagTool\BarcodeManagerParserForm\barcodeLogParser\obj\Debug\barcodeLogParser.csproj.AssemblyReference.cache
